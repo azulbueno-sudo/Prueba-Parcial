@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preferencias Audiovisuales - Azul Bueno</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    
+    <style>
+        h1 {
+            font-family: 'Bitter', serif;
+            color: #0000FF;
+            font-size: 15pt;
+        }
+        h2 {
+            font-family: 'Inter', sans-serif;
+            color: #000000;
+            font-size: 12pt;
+        }
+        p {
+            font-family: 'Bitter', serif;
+            color: #000000;
+            font-size: 9pt;
+        }
+        body {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background-color: #ffffff;
+            line-height: 1.5;
+        }
+        .video-contenedor {
+            margin-bottom: 30px;
+            padding: 15px;
+            background-color: #fafafa;
+            border: 1px solid #e0e0e0;
+        }
+        .reproductor {
+            position: relative;
+            padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
+            height: 0;
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+        .reproductor iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        nav {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #dddddd;
+        }
+        a {
+            color: #0000FF;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Preferencias Audiovisuales</h1>
+    <h2>Inspiración y Banda Sonora de Trabajo</h2>
+    <p>En este espacio secundario comparto recursos audiovisuales externos integrados que utilizo como soporte creativo en mis jornadas de diseño.</p>
+
+    <div class="video-contenedor">
+        <h3>Preferencia Audiovisual 1</h3>
+        <div class="reproductor">
+            <iframe src="https://www.youtube.com/embed/XiHnYkqaf8E" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p><strong>Atribución de autoría:</strong> Contenido audiovisual original alojado externamente en YouTube. Los derechos patrimoniales y morales pertenecen a sus respectivos creadores musicales y canales oficiales integrados mediante el enlace: <a href="https://youtu.be/XiHnYkqaf8E?si=Wmlrf1JmdKNXiKGF" target="_blank">Enlace Original 1</a>.</p>
+    </div>
+
+    <div class="video-contenedor">
+        <h3>Preferencia Audiovisual 2</h3>
+        <div class="reproductor">
+            <iframe src="https://www.youtube.com/embed/oTpEBaqM3kQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p><strong>Atribución de autoría:</strong> Contenido audiovisual original alojado externamente en YouTube. Los derechos patrimoniales y de reproducción pertenecen a los artistas y productoras asociadas de la obra. <a href="https://youtu.be/oTpEBaqM3kQ?si=IQuoAfDMgZIMtgj8" target="_blank">Enlace Original 2</a>.</p>
+    </div>
+
+    <nav>
+        <p><a href="index.html">&larr; Volver al Portfolio Principal</a></p>
+    </nav>
+
+</body>
+</html>
